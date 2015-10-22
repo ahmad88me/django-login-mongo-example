@@ -5,4 +5,7 @@ import binascii
 import os
 
 
-
+class Chat(mongo.Document):
+    sent_on = mongo.DateTimeField()
+    name = mongo.StringField()
+    text = mongo.StringField()

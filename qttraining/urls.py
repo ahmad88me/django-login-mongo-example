@@ -7,5 +7,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'qttraining.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^login', views.login),
+    url(r'^get_chat', views.get_chat),
+    url(r'^chat', views.chat),
     #url(r'^admin/', include(admin.site.urls)),
 )
